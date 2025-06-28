@@ -4,6 +4,7 @@ from PIL import Image
 
 
 def main():
+    #red = [0, 0, 255]
     yellow = [0, 255, 255]  # yellow in BGR colorspace
     cap = cv2.VideoCapture(0)
     while True:
